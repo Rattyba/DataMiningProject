@@ -1,16 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import pandas as pd
 import streamlit as st
-import haversine as hs
-from streamlit_folium import folium_static
-import folium
 import time
-import matplotlib.pyplot as plt
 from PIL import Image
 
 st.title ("Data Mining Project: Self-Service Laundry Shop")
