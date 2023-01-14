@@ -156,8 +156,4 @@ elif Select == "Question 3":
     
 
 
-# In[ ]:
-
-
-
 
