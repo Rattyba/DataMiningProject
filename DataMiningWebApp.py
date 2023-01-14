@@ -149,8 +149,8 @@ elif Select == "Question 3":
     
     # set subheader
     st.subheader('SMOTE')
-    st.markdown('We have created a KNN classifier in fit the model to SMOTE dataset & NON-SMOTE dataset in order to see the differences.')
-    st.markdown('We have plotted a ROC chart to compare KNN classifier with and without SMOTE')
+    st.markdown('We created a KNN classifier in fit the model to SMOTE dataset & NON-SMOTE dataset in order to see the differences.')
+    st.markdown('We also plotted a ROC chart to compare KNN classifier with and without SMOTE')
     image = Image.open('ROC plot for KNN with SMOTE and without SMOTE.jpg')
     st.image(image, caption='ROC plot for KNN with SMOTE and without SMOTE')
     
