@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import time
+import webbrowser
 from PIL import Image
 
 st.title ("Data Mining Project: Self-Service Laundry Shop")
