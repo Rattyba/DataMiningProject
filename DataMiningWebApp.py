@@ -159,7 +159,7 @@ elif Select == "Question 3":
 with open("Report.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
-st.download_button(label="Download_Report",
+st.download_button(label="Download Report",
                     data=PDFbyte,
                     file_name="Report.pdf",
                     mime='application/octet-stream')
