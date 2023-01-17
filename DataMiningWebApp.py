@@ -156,10 +156,10 @@ elif Select == "Question 3":
     st.image(image, caption='ROC plot for KNN with SMOTE and without SMOTE')
     
 #///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
-with open("Report.html", "rb") as html_file:
-    PDFbyte = html_file.read()
+with open("Report.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
 
 st.download_button(label="Download_Report",
                     data=PDFbyte,
-                    file_name="Report.html",
+                    file_name="Report.pdf",
                     mime='application/octet-stream')
